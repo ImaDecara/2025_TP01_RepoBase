@@ -5,6 +5,7 @@ function saludar() {
 
 // Nueva funcionalidad
 function saludarPersona(nombre) {
-   
+    console.log(`Hola, ${nombre}!`);
 }
 saludar();
+saludarPersona("Gabriel");
